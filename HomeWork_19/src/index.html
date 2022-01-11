@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>HomeWork_19</title>
+	<link rel="stylesheet" href="./styles/index.css">
+   <script defer src="app/utils.js"></script>
+   <script defer src="app/index.js"></script>
+</head>
+<body>
+	<div id="root">
+		<section>
+			<form name="login">
+				<label>
+					Email
+					<input name="email" type="text" placeholder="Enter your email"/>
+				</label>
+				<label>
+					Password
+					<input name="password" type="password" placeholder="Enter your password"/>
+				</label>
+				<label>
+					Remember me
+					<input type="checkbox" name="remember">
+				</label>
+				<button type="submit" id="submitBtn">Login</button>
+			</form>
+		</section>
+		<section id="userSection" class="hidden">
+			<h2>User: <span></span></h2>
+		</section>
+	</div>
+</body>
+</html>
